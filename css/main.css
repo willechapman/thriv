@@ -1,0 +1,158 @@
+/*Body*/
+body{
+	height: 100%;
+	width: 100%;
+}
+
+a {
+    color: white;
+}
+
+/*Navigation*/
+.navigation {
+	background-color: black;
+}
+.navigation li.active a {
+	color: #FF6760;
+}
+.navigation li {
+	
+	float: left;
+}
+.logo {
+	color: red;
+    text-align: center;
+}
+
+.search {
+	float: right;
+}
+
+/*Sidebar*/
+#sidebar {
+	float: left;
+	padding-left: 0;
+}
+
+#sign{
+
+	background-color: black;
+	background-size: 80px 60px;
+	margin-top:1px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 75px;
+
+
+}
+#myThriv{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#deals{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#wellness{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#fam{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#wealth{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#night{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#com{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#dine{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#tech{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#relate{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#fash{
+	background-color: black;
+	margin-top: 1px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*Sections*/
+
+.sections{
+	color: white;
+	position: relative;
+	margin-left: 120px;
+	
+
+
+
+
+}	
+
+/*Featured*/
+.featured {
+	background-color: black;
+	display: flex;
+	margin-top:1px;
+}
+
+/*cAROUSEL*/
+
+
+/*New Arrivals*/
+
+.newArrivals {
+	background-color: black;
+	display: flex;
+	margin-top:1px;
+}
+/*New Arrival Thumbnails*/
+.thumbnail{
+	background-color: purple;
+	margin: 0;
+}
+/*ThrivLocal Deals*/
+.deals {
+	background-color: black;
+	display: flex;
+	margin-top:1px;
+
+}
+
