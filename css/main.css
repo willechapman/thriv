@@ -1,37 +1,51 @@
 /*Body*/
 body{
-	height: 100%;
-	width: 100%;
+	margin: 0;
 }
 
 a {
     color: white;
+    text-decoration: none;
+}
+
+ul{
+	list-style: none;
 }
 
 /*Navigation*/
 .navigation {
 	background-color: black;
+	padding-top: 2px;
+
 }
 .navigation li.active a {
-	color: #FF6760;
-}
-.navigation li {
-	
-	float: left;
-}
-.logo {
-	color: red;
-    text-align: center;
+	color: #40c6ec;
 }
 
-.search {
-	float: right;
+.navigation li {
+	position: relative;
+	margin-right: 15px;
+	float: left;
+	top: 20px;
+	right: 35px;
 }
+
+.logo {
+	position: relative;
+	display: block;
+    margin: auto;
+    width: 0;
+}
+
+
+/*Search Input*/
 
 /*Sidebar*/
 #sidebar {
 	float: left;
-	padding-left: 0;
+	margin: 0;
+	padding: 0;
+	width: 255px;
 }
 
 #sign{
@@ -40,97 +54,132 @@ a {
 	background-size: 80px 60px;
 	margin-top:1px;
 	padding-top: 25px;
-	padding-bottom: 25px;
-	padding-left: 75px;
+	padding-left: 30px;
+}
 
+#signWords{
+	display:inline;
+	position: absolute;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#avatar {
+	position: relative;
+	bottom: 10px;
 
 }
-#myThriv{
-	background-color: black;
+.sbbg{
+	background-color: #282626;
+}
+.sbGroup a{
+	position: absolute;
+	vertical-align: center;
+	left: 50px; 
+	
+}
+
+#myThriv{ 
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
+	left: 5px;
 }
+
 
 #deals{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #wellness{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #fam{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #wealth{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #night{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #com{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #dine{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #tech{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #relate{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 #fash{
-	background-color: black;
 	margin-top: 1px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	padding-left: 5px;
 }
 
 /*Sections*/
-
 .sections{
 	color: white;
 	position: relative;
-	margin-left: 120px;
+	display: inline;
+	width: 100%;
+	left:1px;
 	
-
-
-
-
 }	
+
+.sections h3{
+	position: relative;
+	left: 10px;
+
+}
+.secbg {
+	background-color: #282626;
+}
 
 /*Featured*/
 .featured {
-	background-color: black;
 	display: flex;
 	margin-top:1px;
+}
+
+#underF h1{
+	background-color: #6751a2;
+
+	display: flex;
+	margin:0;
+	height: 463px;
 }
 
 /*cAROUSEL*/
@@ -139,20 +188,44 @@ a {
 /*New Arrivals*/
 
 .newArrivals {
-	background-color: black;
 	display: flex;
-	margin-top:1px;
+	margin-top: 1px;
 }
 /*New Arrival Thumbnails*/
 .thumbnail{
-	background-color: purple;
-	margin: 0;
-}
-/*ThrivLocal Deals*/
-.deals {
-	background-color: black;
+	background-color: #6751a2;
+	position: relative;
 	display: flex;
-	margin-top:1px;
+	margin: 0;
 
 }
+
+.box{
+	
+	margin-left: 10px; 
+	margin-top: 10px;
+}	
+
+.gBox{
+	background-color: #282626;
+	position: relative;
+	bottom: 5px;
+}
+
+
+
+/*ThrivLocal Deals*/
+.deals {
+	display: flex; 
+	margin-top:1px;
+	margin-left: 125px;
+
+}
+
+.thumbnail2{
+	background-color: #6751a2;
+	display: flex;
+	margin: 0;
+}
+
 
