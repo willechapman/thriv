@@ -197,6 +197,7 @@ ul{
 	position: relative;
 	display: flex;
 	margin: 0;
+	overflow: scroll;
 
 }
 
@@ -226,6 +227,7 @@ ul{
 	background-color: #6751a2;
 	display: flex;
 	margin: 0;
+	overflow: scroll;
 }
 
 
